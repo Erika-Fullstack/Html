@@ -1,0 +1,121 @@
+#titulo {
+  color: tomato;
+}
+
+p.especial {
+  color: mediumseagreen;
+}
+
+p.texto {
+  /* Esto es un comentario dentro de CSS */
+  color: slateblue;
+}
+
+div p {
+  color: aquamarine; /* Esto es un comentario dentro de CSS */
+}
+
+div h2,
+div h3 {
+  color: brown;
+}
+
+* {
+  font-size: 24px;
+  /*color: black; */
+}
+
+/* Esto es un comentario dentro de CSS */
+/*
+.color {
+    color: #ff0000;
+}
+*/
+
+/*
+.color {
+    color: rgb(0, 255, 255);
+}
+*/
+
+.color {
+  /*border: 5px black solid; */
+  /*
+    dotted
+    dashed
+    solid
+    double
+    groove - 3d
+    ridge - 3d
+    inset -3d
+    outset - 3d
+    none
+    hidden
+    */
+  border-style: solid;
+  border-color: blue;
+  border-radius: 5px;
+  border-width: 5px;
+}
+
+#fondo {
+  background-color: rgba(255, 0, 0);
+  /* opacity: 0.3; */
+  height: 400px;
+  background-image: url("ejercicio/assets/img/cefalu.jpg");
+  background-size: 400px 400px;
+  background-repeat: repeat-y;
+  background-position: right center;
+  /*
+    background: #f00 url('ejercicio/assets/img/cefalu.jpg') repeat-y center bottom / 400px 400px;
+    */
+}
+
+.margen {
+  background-color: chocolate;
+  margin: 15px 20px 25px 30px;
+  /* top right botton left */
+  padding: 30px 25px 20px 15px;
+  border: solid 1px black;
+  height: 100px;
+  width: 50px;
+  overflow: scroll;
+  outline: 1px solid red;
+}
+
+.text {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  /* fuente personalizada en google font sólo incluir las que vayamos a usar*/
+  /* copiamos el código que nos sale y lo añadimos a la cabecera de nuestro archivo html */
+  /* font-family: 'Roboto', sans-serif */
+  text-align: center;
+  text-decoration: underline;
+  text-shadow: 3px 5px 5px blue;
+  /* derecha abajo difuminado*/
+}
+
+a:link {
+    color:blueviolet;
+}
+
+a:visited { /*visitados*/
+    color: gray;
+}
+
+a:hover { /*cuando pasamos el raton por encima*/
+    color: yellow;
+}
+
+a:active { /*cuando pincho el link*/
+    color: red
+}
+
+/* hay que colocarlos en este orden si quiero todos*/
+
+ul {
+    background-color: cyan ;
+    list-style-type: georgian; /*puedo añadir puntos etc...*/
+    /*padding-left: 0;*/
+    /*list-style-position: inside; */
+}
+

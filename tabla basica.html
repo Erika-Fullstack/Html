@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabla básica</title>
+
+    <style>
+        table, th, td{
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        th, td{
+            padding: 10px;
+        }
+
+        th{
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th>Nombre</th>
+            <th>Apellidos</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td colspan="2">Kiko Palomares</td>
+            <td>email@email.com</td>
+        </tr>
+        <tr>
+            <td>Maria</td>
+            <td rowspan="2">Garcia</td>
+            <td>email@email.com</td>
+        </tr>
+        <tr>
+            <td>Carlos</td>
+            <td>email@email.com</td>
+        </tr>
+        <tr>
+            <td>Jesus</td>
+            <td>Rodriguez</td>
+            <td>email@email.com</td>
+        </tr>
+
+    </table>
+</body>
+</html>
